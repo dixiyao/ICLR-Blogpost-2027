@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Distributed optimization and multi-agent reasoning</title>
+    <link rel="stylesheet" href="industry-landscape.css" />
+    <style>
+      body {
+        margin: 0;
+      }
+      main {
+        max-width: 1200px;
+        margin: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="do2ma-industry">
+        <div class="comparison">
+          <section class="side numerical" aria-labelledby="numerical-title">
+            <h3 class="heading" id="numerical-title">Distributed optimization</h3>
+            <div class="logos">
+              <div class="company company-gurobi">
+                <button class="logo-button" type="button" aria-label="Show Gurobi products" aria-describedby="numerical-gurobi">
+                  <img src="../../img/2027-11-23-do2ma/logos/gurobi.svg" alt="Gurobi" draggable="false" />
+                </button>
+                <div class="product" id="numerical-gurobi" role="group" aria-label="Gurobi products">
+                  <ul>
+                    <li>
+                      <a
+                        href="https://docs.gurobi.com/projects/optimizer/en/current/features/distributed.html"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >Gurobi Optimizer <span aria-hidden="true">↗</span></a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="company company-nvidia">
+                <button class="logo-button" type="button" aria-label="Show NVIDIA products" aria-describedby="numerical-nvidia">
+                  <img src="../../img/2027-11-23-do2ma/logos/nvidia.svg" alt="NVIDIA" draggable="false" />
+                </button>
+                <div class="product" id="numerical-nvidia" role="group" aria-label="NVIDIA products">
+                  <ul>
+                    <li>
+                      <a
+                        href="https://docs.nvidia.com/nemo-framework/user-guide/25.07/performance/performance-guide.html"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >NeMo Framework <span aria-hidden="true">↗</span></a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="company company-aws">
+                <button class="logo-button" type="button" aria-label="Show Amazon Web Services products" aria-describedby="numerical-aws">
+                  <img src="../../img/2027-11-23-do2ma/logos/aws.svg" alt="Amazon Web Services" draggable="false" />
+                </button>
+                <div class="product" id="numerical-aws" role="group" aria-label="Amazon Web Services products">
+                  <ul>
+                    <li>
+                      <a href="https://docs.aws.amazon.com/sagemaker/latest/dg/distributed-training.html" target="_blank" rel="noopener noreferrer"
+                        >Amazon SageMaker AI <span aria-hidden="true">↗</span></a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="company company-google">
+                <button class="logo-button" type="button" aria-label="Show Google products" aria-describedby="numerical-google">
+                  <img src="../../img/2027-11-23-do2ma/logos/google.svg" alt="Google" draggable="false" />
+                </button>
+                <div class="product" id="numerical-google" role="group" aria-label="Google products">
+                  <ul>
+                    <li>
+                      <a href="https://cloud.google.com/vertex-ai/docs/training/distributed-training" target="_blank" rel="noopener noreferrer"
+                        >Vertex AI distributed training <span aria-hidden="true">↗</span></a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="company company-microsoft">
+                <button class="logo-button" type="button" aria-label="Show Microsoft products" aria-describedby="numerical-microsoft">
+                  <img src="../../img/2027-11-23-do2ma/logos/microsoft.png" alt="Microsoft" draggable="false" />
+                </button>
+                <div class="product" id="numerical-microsoft" role="group" aria-label="Microsoft products">
+                  <ul>
+                    <li>
+                      <a
+                        href="https://learn.microsoft.com/en-us/azure/machine-learning/how-to-train-distributed-gpu?view=azureml-api-2"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >Azure Machine Learning <span aria-hidden="true">↗</span></a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="company company-anyscale">
+                <button class="logo-button" type="button" aria-label="Show Anyscale products" aria-describedby="numerical-anyscale">
+                  <img src="../../img/2027-11-23-do2ma/logos/anyscale.svg" alt="Anyscale" draggable="false" />
+                </button>
+                <div class="product" id="numerical-anyscale" role="group" aria-label="Anyscale products">
+                  <ul>
+                    <li>
+                      <a href="https://www.anyscale.com/product/library/ray-train" target="_blank" rel="noopener noreferrer"
+                        >Ray Train on Anyscale <span aria-hidden="true">↗</span></a
+                      >
+                    </li>
+                    <li>
+                      <a href="https://docs.ray.io/en/latest/tune/index.html" target="_blank" rel="noopener noreferrer"
+                        >Ray Tune <span aria-hidden="true">↗</span></a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="side language" aria-labelledby="language-title">
+            <h3 class="heading" id="language-title">Multi-agent reasoning</h3>
+            <div class="logos">
+              <div class="company company-anthropic">
+                <button class="logo-button" type="button" aria-label="Show Anthropic products" aria-describedby="language-anthropic">
+                  <img src="../../img/2027-11-23-do2ma/logos/anthropic.svg" alt="Anthropic" draggable="false" />
+                </button>
+                <div class="product" id="language-anthropic" role="group" aria-label="Anthropic products">
+                  <ul>
+                    <li>
+                      <a href="https://www.anthropic.com/engineering/multi-agent-research-system" target="_blank" rel="noopener noreferrer"
+                        >Claude Research <span aria-hidden="true">↗</span></a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="company company-openai">
+                <button class="logo-button" type="button" aria-label="Show OpenAI products" aria-describedby="language-openai">
+                  <img src="../../img/2027-11-23-do2ma/logos/openai.svg" alt="OpenAI" draggable="false" />
+                </button>
+                <div class="product" id="language-openai" role="group" aria-label="OpenAI products">
+                  <ul>
+                    <li>
+                      <a href="https://openai.github.io/openai-agents-python/multi_agent/" target="_blank" rel="noopener noreferrer"
+                        >OpenAI Agents SDK <span aria-hidden="true">↗</span></a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="company company-aws">
+                <button class="logo-button" type="button" aria-label="Show Amazon Web Services products" aria-describedby="language-aws">
+                  <img src="../../img/2027-11-23-do2ma/logos/aws.svg" alt="Amazon Web Services" draggable="false" />
+                </button>
+                <div class="product" id="language-aws" role="group" aria-label="Amazon Web Services products">
+                  <ul>
+                    <li>
+                      <a
+                        href="https://docs.aws.amazon.com/bedrock/latest/userguide/agents-multi-agent-collaboration.html"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >Amazon Bedrock Agents <span aria-hidden="true">↗</span></a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="company company-google">
+                <button class="logo-button" type="button" aria-label="Show Google products" aria-describedby="language-google">
+                  <img src="../../img/2027-11-23-do2ma/logos/google.svg" alt="Google" draggable="false" />
+                </button>
+                <div class="product" id="language-google" role="group" aria-label="Google products">
+                  <ul>
+                    <li>
+                      <a href="https://google.github.io/adk-docs/agents/multi-agents/" target="_blank" rel="noopener noreferrer"
+                        >Agent Development Kit <span aria-hidden="true">↗</span></a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="company company-microsoft">
+                <button class="logo-button" type="button" aria-label="Show Microsoft products" aria-describedby="language-microsoft">
+                  <img src="../../img/2027-11-23-do2ma/logos/microsoft.png" alt="Microsoft" draggable="false" />
+                </button>
+                <div class="product" id="language-microsoft" role="group" aria-label="Microsoft products">
+                  <ul>
+                    <li>
+                      <a
+                        href="https://learn.microsoft.com/en-us/microsoft-copilot-studio/authoring-add-other-agents"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >Copilot Studio <span aria-hidden="true">↗</span></a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="company company-langchain">
+                <button class="logo-button" type="button" aria-label="Show LangChain products" aria-describedby="language-langchain">
+                  <img src="../../img/2027-11-23-do2ma/logos/langchain.svg" alt="LangChain" draggable="false" />
+                </button>
+                <div class="product" id="language-langchain" role="group" aria-label="LangChain products">
+                  <ul>
+                    <li>
+                      <a href="https://www.langchain.com/langgraph" target="_blank" rel="noopener noreferrer"
+                        >LangGraph <span aria-hidden="true">↗</span></a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

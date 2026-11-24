@@ -1,0 +1,49 @@
+{
+  "gurobi": {
+    "file": "gurobi.svg",
+    "official_source": "https://docs.gurobi.com/projects/optimizer/en/current/features/distributed.html",
+    "asset_url": "https://docs.gurobi.com/projects/optimizer/en/current/_static/gurobi_light.svg",
+    "extraction": "Original official documentation logo for light backgrounds."
+  },
+  "aws": {
+    "file": "aws.svg",
+    "official_source": "https://aws.amazon.com/",
+    "extraction": "Official homepage header inline SVG."
+  },
+  "nvidia": {
+    "file": "nvidia.svg",
+    "official_source": "https://www.nvidia.com/en-us/about-nvidia/legal-info/logo-brand-usage/",
+    "extraction": "Official corporate page header inline SVG."
+  },
+  "google": {
+    "file": "google.svg",
+    "official_source": "https://about.google/brand-resource-center/logos-list/",
+    "extraction": "Official Google brand resource site header inline SVG."
+  },
+  "anthropic": {
+    "file": "anthropic.svg",
+    "official_source": "https://www.anthropic.com/",
+    "extraction": "Official company homepage wordmark SVG."
+  },
+  "openai": {
+    "file": "openai.svg",
+    "official_source": "https://openai.com/brand/",
+    "extraction": "Official brand page header wordmark SVG."
+  },
+  "microsoft": {
+    "file": "microsoft.png",
+    "official_source": "https://www.microsoft.com/",
+    "asset_url": "https://uhf.microsoft.com/images/microsoft/RE1Mu3b.png",
+    "extraction": "Original official corporate header PNG, no upscaling."
+  },
+  "anyscale": {
+    "file": "anyscale.svg",
+    "official_source": "https://www.anyscale.com/",
+    "extraction": "Official company homepage header inline SVG; original artwork."
+  },
+  "langchain": {
+    "file": "langchain.svg",
+    "official_source": "https://www.langchain.com/",
+    "extraction": "Official company homepage header inline SVG; original artwork."
+  }
+}

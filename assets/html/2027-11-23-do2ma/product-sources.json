@@ -1,0 +1,133 @@
+{
+  "checked": "2026-11-24",
+  "scope": "Distributed optimization includes distributed numerical model training. Frameworks and managed services are explicitly labeled; no customer deployment is implied for every entry.",
+  "left": [
+    {
+      "logo": "gurobi",
+      "company": "Gurobi",
+      "products": [
+        {
+          "product": "Gurobi Optimizer",
+          "source": "https://docs.gurobi.com/projects/optimizer/en/current/features/distributed.html"
+        }
+      ]
+    },
+    {
+      "logo": "nvidia",
+      "company": "NVIDIA",
+      "products": [
+        {
+          "product": "NeMo Framework",
+          "source": "https://docs.nvidia.com/nemo-framework/user-guide/25.07/performance/performance-guide.html"
+        }
+      ]
+    },
+    {
+      "logo": "aws",
+      "company": "Amazon Web Services",
+      "products": [
+        {
+          "product": "Amazon SageMaker AI",
+          "source": "https://docs.aws.amazon.com/sagemaker/latest/dg/distributed-training.html"
+        }
+      ]
+    },
+    {
+      "logo": "google",
+      "company": "Google",
+      "products": [
+        {
+          "product": "Vertex AI distributed training",
+          "source": "https://cloud.google.com/vertex-ai/docs/training/distributed-training"
+        }
+      ]
+    },
+    {
+      "logo": "microsoft",
+      "company": "Microsoft",
+      "products": [
+        {
+          "product": "Azure Machine Learning",
+          "source": "https://learn.microsoft.com/en-us/azure/machine-learning/how-to-train-distributed-gpu?view=azureml-api-2"
+        }
+      ]
+    },
+    {
+      "logo": "anyscale",
+      "company": "Anyscale",
+      "products": [
+        {
+          "product": "Ray Train on Anyscale",
+          "source": "https://www.anyscale.com/product/library/ray-train"
+        },
+        {
+          "product": "Ray Tune",
+          "source": "https://docs.ray.io/en/latest/tune/index.html"
+        }
+      ]
+    }
+  ],
+  "right": [
+    {
+      "logo": "anthropic",
+      "company": "Anthropic",
+      "products": [
+        {
+          "product": "Claude Research",
+          "source": "https://www.anthropic.com/engineering/multi-agent-research-system"
+        }
+      ]
+    },
+    {
+      "logo": "openai",
+      "company": "OpenAI",
+      "products": [
+        {
+          "product": "OpenAI Agents SDK",
+          "source": "https://openai.github.io/openai-agents-python/multi_agent/"
+        }
+      ]
+    },
+    {
+      "logo": "aws",
+      "company": "Amazon Web Services",
+      "products": [
+        {
+          "product": "Amazon Bedrock Agents",
+          "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/agents-multi-agent-collaboration.html"
+        }
+      ]
+    },
+    {
+      "logo": "google",
+      "company": "Google",
+      "products": [
+        {
+          "product": "Agent Development Kit",
+          "source": "https://google.github.io/adk-docs/agents/multi-agents/"
+        }
+      ]
+    },
+    {
+      "logo": "microsoft",
+      "company": "Microsoft",
+      "products": [
+        {
+          "product": "Copilot Studio",
+          "source": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/authoring-add-other-agents"
+        }
+      ]
+    },
+    {
+      "logo": "langchain",
+      "company": "LangChain",
+      "products": [
+        {
+          "product": "LangGraph",
+          "source": "https://www.langchain.com/langgraph"
+        }
+      ]
+    }
+  ],
+  "max_products_per_company": 5
+}

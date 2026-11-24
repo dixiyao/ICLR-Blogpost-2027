@@ -1,0 +1,222 @@
+.do2ma-industry {
+  container-type: inline-size;
+  display: block;
+  width: 100%;
+  margin: 18px 0;
+  color: #202635;
+  background: #fff;
+  font-family: Inter, "Helvetica Neue", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.4;
+}
+.do2ma-industry * {
+  box-sizing: border-box;
+}
+.do2ma-industry .comparison {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  position: relative;
+  padding: 12px 0;
+}
+.do2ma-industry .comparison::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  width: 1px;
+  top: 0;
+  bottom: 0;
+  background: #dce0e6;
+  pointer-events: none;
+}
+.do2ma-industry .side {
+  padding: 0 24px;
+  min-width: 0;
+  --accent: #216b89;
+  --wash: #f1f7fa;
+}
+.do2ma-industry .language {
+  --accent: #7955a0;
+  --wash: #f7f3fa;
+}
+.do2ma-industry .heading {
+  font:
+    500 clamp(13px, 2.2cqi, 24px)/1.25 Georgia,
+    "Times New Roman",
+    serif;
+  letter-spacing: -0.025em;
+  white-space: nowrap;
+  text-align: center;
+  margin: 0 0 20px;
+  padding: 0;
+  border: 0;
+  color: #202635;
+}
+.do2ma-industry .logos {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px 14px;
+  align-items: start;
+}
+.do2ma-industry .company {
+  display: contents;
+}
+.do2ma-industry .logo-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 68px;
+  margin: 0;
+  padding: 12px 5px;
+  border: 0;
+  border-radius: 10px;
+  box-shadow: none;
+  background: transparent;
+  cursor: pointer;
+}
+.do2ma-industry .company:nth-child(1) .logo-button {
+  grid-area: 1/1;
+}
+.do2ma-industry .company:nth-child(2) .logo-button {
+  grid-area: 1/2;
+}
+.do2ma-industry .company:nth-child(3) .logo-button {
+  grid-area: 1/3;
+}
+.do2ma-industry .company:nth-child(4) .logo-button {
+  grid-area: 2/1;
+}
+.do2ma-industry .company:nth-child(5) .logo-button {
+  grid-area: 2/2;
+}
+.do2ma-industry .company:nth-child(6) .logo-button {
+  grid-area: 2/3;
+}
+.do2ma-industry .logo-button img {
+  display: block;
+  width: 100%;
+  max-width: 126px;
+  height: 34px;
+  object-fit: contain;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-shadow: none;
+}
+.do2ma-industry .company-aws img {
+  max-width: 58px;
+  height: 36px;
+}
+.do2ma-industry .company-microsoft img {
+  max-width: 108px;
+  height: auto;
+}
+.do2ma-industry .logo-button:hover,
+.do2ma-industry .company:focus-within .logo-button {
+  background: #f5f6f8;
+}
+.do2ma-industry .logo-button:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+.do2ma-industry .product {
+  display: none;
+  grid-column: 1/-1;
+  grid-row: 3;
+  position: static;
+  padding: 14px 18px;
+  border-radius: 12px;
+  background: var(--wash);
+  margin: 0;
+}
+.do2ma-industry .company:hover .product,
+.do2ma-industry .company:focus-within .product {
+  display: block;
+}
+.do2ma-industry .logos:has(.company:hover) .company:not(:hover) .product {
+  display: none;
+}
+.do2ma-industry .product ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 10px;
+}
+.do2ma-industry .product li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.do2ma-industry .product a {
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.5;
+  color: var(--accent);
+  text-decoration: none;
+  overflow-wrap: anywhere;
+}
+.do2ma-industry .product a:hover {
+  text-decoration: underline;
+}
+.do2ma-industry .product a:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+@container (max-width:650px) {
+  .do2ma-industry .side {
+    padding: 0 12px;
+  }
+  .do2ma-industry .logos {
+    gap: 8px;
+  }
+  .do2ma-industry .logo-button {
+    height: 54px;
+    padding: 10px 2px;
+  }
+  .do2ma-industry .logo-button img {
+    height: 25px;
+  }
+  .do2ma-industry .company-microsoft img {
+    height: auto;
+  }
+  .do2ma-industry .product {
+    padding: 12px;
+  }
+  .do2ma-industry .product a {
+    font-size: 11px;
+  }
+}
+@container (max-width:450px) {
+  .do2ma-industry .side {
+    padding: 0 8px;
+  }
+  .do2ma-industry .heading {
+    font-size: clamp(10px, 3.2cqi, 14px);
+    margin-bottom: 14px;
+  }
+  .do2ma-industry .logos {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .do2ma-industry .company:nth-child(3) .logo-button {
+    grid-area: 2/1;
+  }
+  .do2ma-industry .company:nth-child(4) .logo-button {
+    grid-area: 2/2;
+  }
+  .do2ma-industry .company:nth-child(5) .logo-button {
+    grid-area: 3/1;
+  }
+  .do2ma-industry .company:nth-child(6) .logo-button {
+    grid-area: 3/2;
+  }
+  .do2ma-industry .product {
+    grid-row: 4;
+  }
+  .do2ma-industry .logo-button {
+    height: 48px;
+  }
+  .do2ma-industry .company-aws img {
+    height: 29px;
+  }
+}

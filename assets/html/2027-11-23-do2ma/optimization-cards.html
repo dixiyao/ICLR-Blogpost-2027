@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Three applications of distributed optimization</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        margin: 0;
+        height: 100%;
+        color: #17324b;
+        font-family: Inter, "Helvetica Neue", Arial, sans-serif;
+      }
+      body {
+        padding: 3px 1px;
+      }
+      .cards {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 12px;
+        height: 100%;
+      }
+      .card {
+        padding: 18px;
+        border: 1px solid #d7e9f4;
+        border-radius: 12px;
+        background: linear-gradient(145deg, #f3faff, #fff 85%);
+        min-width: 0;
+      }
+      .tab {
+        display: inline-block;
+        background: #dceffc;
+        color: #176491;
+        border-radius: 5px;
+        padding: 5px 9px;
+        font-size: 10px;
+        line-height: 1.3;
+        font-weight: 700;
+        letter-spacing: 0.065em;
+        text-transform: uppercase;
+        margin-bottom: 14px;
+      }
+      h2 {
+        font-size: 18px;
+        line-height: 1.3;
+        letter-spacing: -0.025em;
+        margin: 0 0 12px;
+        font-weight: 650;
+      }
+      a {
+        color: #176491;
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+      a:focus-visible {
+        outline: 2px solid #2378aa;
+        outline-offset: 3px;
+      }
+      p {
+        font-size: 13px;
+        line-height: 1.65;
+        margin: 0;
+        color: #42576b;
+      }
+      strong {
+        font-weight: 650;
+      }
+      .citation {
+        white-space: nowrap;
+        font-size: 11px;
+      }
+      h2 span {
+        font-size: 13px;
+      }
+      @media (max-width: 600px) {
+        .cards {
+          grid-template-columns: 1fr;
+          gap: 10px;
+          grid-template-rows: repeat(3, 1fr);
+        }
+        .card {
+          padding: 14px 16px;
+        }
+        .tab {
+          margin-bottom: 8px;
+          font-size: 9px;
+        }
+        h2 {
+          font-size: 17px;
+          margin-bottom: 7px;
+        }
+        p {
+          font-size: 12px;
+          line-height: 1.55;
+        }
+      }
+      @media (min-width: 601px) and (max-width: 799px) {
+        .card {
+          padding: 14px;
+        }
+        h2 {
+          font-size: 16px;
+        }
+        .tab {
+          font-size: 9px;
+        }
+        p {
+          font-size: 12px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="cards">
+      <article class="card">
+        <div class="tab">LLM Infra</div>
+        <h2>
+          <a href="https://github.com/deepseek-ai/DeepSeek-V3" target="_blank" rel="noopener noreferrer"
+            >DeepSeek V3 <span aria-hidden="true">↗</span></a
+          >
+        </h2>
+        <p><strong>open-sourced DeepSeek V3 uses a series of distirbuted optimization techniques to train a foundation model</strong></p>
+      </article>
+      <article class="card">
+        <div class="tab">Distributed RL</div>
+        <h2>
+          <a href="https://www.together.ai/blog/ai-native-conf-research-and-product-announcements" target="_blank" rel="noopener noreferrer"
+            >Together AI ThunderAgent <span aria-hidden="true">↗</span></a
+          >
+        </h2>
+        <p>Beyongd traditional model training in deep learning, we can also have distribtued policy optimziation</p>
+      </article>
+      <article class="card">
+        <div class="tab">Federated Optimization</div>
+        <h2>
+          <a href="https://github.com/FederatedAI/FATE" target="_blank" rel="noopener noreferrer">Webank FATE <span aria-hidden="true">↗</span></a>
+        </h2>
+        <p>
+          Federated learning&nbsp;<a
+            class="citation"
+            href="https://proceedings.mlr.press/v54/mcmahan17a.html"
+            target="_blank"
+            rel="noopener noreferrer"
+            >[mcmahan2017communication]</a
+          >
+          is a form of distribtued training with guarantee of privacy with keeping data on the local computation workers
+        </p>
+      </article>
+    </div>
+  </body>
+</html>
