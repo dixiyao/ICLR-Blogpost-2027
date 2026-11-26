@@ -1,0 +1,25 @@
+/* Equal space for the two comparisons; scoped to this post's challenge table. */
+d-article table.do2ma-challenges {
+  width: 100%;
+  table-layout: fixed;
+  font-size: 0.9em;
+  line-height: 1.55;
+}
+d-article table.do2ma-challenges th,
+d-article table.do2ma-challenges td {
+  box-sizing: border-box;
+  width: 40%;
+  padding: 0.65em 0.8em;
+  vertical-align: top;
+  text-align: left;
+  overflow-wrap: break-word;
+  text-wrap: pretty;
+}
+d-article table.do2ma-challenges th:first-child,
+d-article table.do2ma-challenges td:first-child {
+  width: 20%;
+  padding-left: 0;
+}
+d-article table.do2ma-challenges th {
+  text-wrap: balance;
+}
