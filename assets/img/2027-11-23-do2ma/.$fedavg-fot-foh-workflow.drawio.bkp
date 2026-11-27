@@ -1,0 +1,219 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.5.3 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" modified="2026-11-26T17:10:04.432Z" etag="FKGnV3cCeCSOKX9db2hl" version="24.5.3" type="device">
+  <diagram name="Page-1" id="tEcmFTW06XQOrpHfCifP">
+    <mxGraphModel dx="920" dy="805" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1120" pageHeight="460" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="workflow-1" value="FedAvg" style="text;html=0;align=center;verticalAlign=middle;whiteSpace=wrap;fontFamily=Arial;fontSize=22;fontStyle=1;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="120" y="424" width="300" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="workflow-2" value="Global model" style="text;html=0;align=center;verticalAlign=middle;whiteSpace=wrap;fontFamily=Arial;fontSize=15;fontStyle=1;fontColor=#000000;" parent="1" vertex="1" tooltip="Corresponding component on both sides: state">
+          <mxGeometry x="125" y="46" width="290" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="workflow-4" style="edgeStyle=none;rounded=0;html=0;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="318" as="sourcePoint" />
+            <mxPoint x="270" y="355" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="110" y="335" />
+              <mxPoint x="270" y="335" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="workflow-6" style="edgeStyle=none;rounded=0;html=0;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="318" as="sourcePoint" />
+            <mxPoint x="270" y="355" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="270" y="335" />
+              <mxPoint x="270" y="335" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="workflow-8" style="edgeStyle=none;rounded=0;html=0;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;" parent="1" edge="1" source="hxu6wiTyDnIWycwS2P2s-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="318" as="sourcePoint" />
+            <mxPoint x="270" y="355" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="270" y="335" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="workflow-9" style="edgeStyle=none;rounded=0;html=0;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="445" y="379" as="sourcePoint" />
+            <mxPoint x="500" y="231" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="500" y="379" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="workflow-10" style="edgeStyle=none;rounded=0;html=0;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="431" y="173" as="sourcePoint" />
+            <mxPoint x="431" y="152" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="workflow-11" style="edgeStyle=none;rounded=0;html=0;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="345" y="108" as="sourcePoint" />
+            <mxPoint x="294" y="108" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="workflow-12" value="" style="shape=image;verticalLabelPosition=bottom;verticalAlign=top;imageAspect=0;aspect=fixed;image=data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%22-20%20-48%2057%2085%22%3E%3Cg%20transform%3D%22translate%280%2C0%29%20scale%281%29%22%3E%3Cpolygon%20points%3D%22-18%2C-35%20-2%2C-46%2034%2C-46%2018%2C-35%22%20fill%3D%22white%22%20stroke%3D%22%23000000%22%20stroke-width%3D%221.8%22%20stroke-linejoin%3D%22round%22%2F%3E%3Cpolygon%20points%3D%2218%2C-35%2034%2C-46%2034%2C24%2018%2C35%22%20fill%3D%22white%22%20stroke%3D%22%23000000%22%20stroke-width%3D%221.8%22%20stroke-linejoin%3D%22round%22%2F%3E%3Crect%20x%3D%22-18%22%20y%3D%22-35%22%20width%3D%2236%22%20height%3D%2270%22%20rx%3D%220%22%20fill%3D%22white%22%20stroke%3D%22%23000000%22%20stroke-width%3D%221.8%22%2F%3E%3Crect%20x%3D%22-14%22%20y%3D%22-30%22%20width%3D%2228%22%20height%3D%2212%22%20rx%3D%220%22%20fill%3D%22%23000000%22%20stroke%3D%22%23000000%22%20stroke-width%3D%220%22%2F%3E%3Ccircle%20cx%3D%229%22%20cy%3D%22-24%22%20r%3D%221.5%22%20fill%3D%22white%22%2F%3E%3Cpath%20d%3D%22M-10%20-24%20L-1%20-24%22%20fill%3D%22none%22%20stroke%3D%22white%22%20stroke-width%3D%221.2%22%20stroke-linecap%3D%22round%22%2F%3E%3Crect%20x%3D%22-14%22%20y%3D%22-13%22%20width%3D%2228%22%20height%3D%2238%22%20rx%3D%220%22%20fill%3D%22white%22%20stroke%3D%22%23000000%22%20stroke-width%3D%221.2%22%2F%3E%3Cpath%20d%3D%22M-10%20-9.0%20L10%20-9.0%22%20fill%3D%22none%22%20stroke%3D%22%23000000%22%20stroke-width%3D%221.1%22%20stroke-linecap%3D%22round%22%2F%3E%3Cpath%20d%3D%22M-10%20-4.8%20L10%20-4.8%22%20fill%3D%22none%22%20stroke%3D%22%23000000%22%20stroke-width%3D%221.1%22%20stroke-linecap%3D%22round%22%2F%3E%3Cpath%20d%3D%22M-10%20-0.5999999999999996%20L10%20-0.5999999999999996%22%20fill%3D%22none%22%20stroke%3D%22%23000000%22%20stroke-width%3D%221.1%22%20stroke-linecap%3D%22round%22%2F%3E%3Cpath%20d%3D%22M-10%203.6000000000000014%20L10%203.6000000000000014%22%20fill%3D%22none%22%20stroke%3D%22%23000000%22%20stroke-width%3D%221.1%22%20stroke-linecap%3D%22round%22%2F%3E%3Cpath%20d%3D%22M-10%207.800000000000001%20L10%207.800000000000001%22%20fill%3D%22none%22%20stroke%3D%22%23000000%22%20stroke-width%3D%221.1%22%20stroke-linecap%3D%22round%22%2F%3E%3Cpath%20d%3D%22M-10%2012.0%20L10%2012.0%22%20fill%3D%22none%22%20stroke%3D%22%23000000%22%20stroke-width%3D%221.1%22%20stroke-linecap%3D%22round%22%2F%3E%3Cpath%20d%3D%22M-10%2016.200000000000003%20L10%2016.200000000000003%22%20fill%3D%22none%22%20stroke%3D%22%23000000%22%20stroke-width%3D%221.1%22%20stroke-linecap%3D%22round%22%2F%3E%3Cpath%20d%3D%22M-10%2020.400000000000002%20L10%2020.400000000000002%22%20fill%3D%22none%22%20stroke%3D%22%23000000%22%20stroke-width%3D%221.1%22%20stroke-linecap%3D%22round%22%2F%3E%3Cpath%20d%3D%22M-11%2030%20L11%2030%22%20fill%3D%22none%22%20stroke%3D%22%23000000%22%20stroke-width%3D%221.5%22%20stroke-linecap%3D%22round%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E;" parent="1" vertex="1" tooltip="Corresponding component on both sides: server">
+          <mxGeometry x="250" y="77" width="45.6" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="workflow-13" value="1. Broadcast&#xa;global model" style="rounded=1;arcSize=15;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;fontColor=#000000;fontFamily=Arial;fontSize=15;spacing=9;" parent="1" vertex="1" tooltip="Corresponding component on both sides: 1">
+          <mxGeometry x="30" y="180" width="198" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="workflow-14" value="3. Upload&#xa;model weights" style="rounded=1;arcSize=15;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;fontColor=#000000;fontFamily=Arial;fontSize=15;spacing=9;" parent="1" vertex="1" tooltip="Corresponding component on both sides: 3">
+          <mxGeometry x="326" y="173" width="210" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="workflow-15" value="4. Aggregate&#xa;model weights to&#xa;update the model" style="rounded=1;arcSize=15;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;fontColor=#000000;fontFamily=Arial;fontSize=15;spacing=9;" parent="1" vertex="1" tooltip="Corresponding component on both sides: 4">
+          <mxGeometry x="31" y="72" width="193" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="workflow-16" value="Client" style="rounded=1;arcSize=15;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;fontColor=#000000;fontFamily=Arial;fontSize=15;spacing=9;" parent="1" vertex="1" tooltip="Corresponding component on both sides: clients">
+          <mxGeometry x="64" y="280" width="92" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="workflow-17" value="Client" style="rounded=1;arcSize=15;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;fontColor=#000000;fontFamily=Arial;fontSize=15;spacing=9;" parent="1" vertex="1" tooltip="Corresponding component on both sides: clients">
+          <mxGeometry x="224" y="280" width="92" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="workflow-18" value="Client" style="rounded=1;arcSize=15;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;fontColor=#000000;fontFamily=Arial;fontSize=15;spacing=9;" parent="1" vertex="1" tooltip="Corresponding component on both sides: clients">
+          <mxGeometry x="384" y="280" width="92" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="workflow-19" value="2. Local optimization" style="rounded=1;arcSize=15;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;fontColor=#000000;fontFamily=Arial;fontSize=15;spacing=9;" parent="1" vertex="1" tooltip="Corresponding component on both sides: 2">
+          <mxGeometry x="55" y="318" width="110" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="workflow-20" value="FoT/FoH" style="text;html=0;align=center;verticalAlign=middle;whiteSpace=wrap;fontFamily=Arial;fontSize=22;fontStyle=1;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="700" y="424" width="300" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="workflow-21" value="Shared memory/harness" style="text;html=0;align=center;verticalAlign=middle;whiteSpace=wrap;fontFamily=Arial;fontSize=15;fontStyle=1;fontColor=#000000;" parent="1" vertex="1" tooltip="Corresponding component on both sides: state">
+          <mxGeometry x="705" y="46" width="290" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="workflow-22" style="edgeStyle=none;rounded=0;html=0;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="832" y="126" as="sourcePoint" />
+            <mxPoint x="690" y="280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="645" y="126" />
+              <mxPoint x="645" y="255" />
+              <mxPoint x="690" y="255" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="workflow-23" style="edgeStyle=none;rounded=0;html=0;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="690" y="318" as="sourcePoint" />
+            <mxPoint x="850" y="355" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="690" y="335" />
+              <mxPoint x="850" y="335" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="workflow-24" style="edgeStyle=none;rounded=0;html=0;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="832" y="126" as="sourcePoint" />
+            <mxPoint x="850" y="280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="645" y="126" />
+              <mxPoint x="645" y="255" />
+              <mxPoint x="850" y="255" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="workflow-25" style="edgeStyle=none;rounded=0;html=0;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="850" y="318" as="sourcePoint" />
+            <mxPoint x="850" y="355" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="850" y="335" />
+              <mxPoint x="850" y="335" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="workflow-26" style="edgeStyle=none;rounded=0;html=0;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="832" y="126" as="sourcePoint" />
+            <mxPoint x="1010" y="280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="645" y="126" />
+              <mxPoint x="645" y="255" />
+              <mxPoint x="1010" y="255" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="workflow-27" style="edgeStyle=none;rounded=0;html=0;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1010" y="318" as="sourcePoint" />
+            <mxPoint x="850" y="355" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1010" y="335" />
+              <mxPoint x="850" y="335" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="workflow-28" style="edgeStyle=none;rounded=0;html=0;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1025" y="379" as="sourcePoint" />
+            <mxPoint x="1080" y="231" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1080" y="379" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="workflow-29" style="edgeStyle=none;rounded=0;html=0;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1011" y="173" as="sourcePoint" />
+            <mxPoint x="1011" y="152" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="workflow-30" style="edgeStyle=none;rounded=0;html=0;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="925" y="108" as="sourcePoint" />
+            <mxPoint x="874" y="108" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="workflow-31" value="" style="shape=image;verticalLabelPosition=bottom;verticalAlign=top;imageAspect=0;aspect=fixed;image=data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%22-20%20-48%2057%2085%22%3E%3Cg%20transform%3D%22translate%280%2C0%29%20scale%281%29%22%3E%3Cpolygon%20points%3D%22-18%2C-35%20-2%2C-46%2034%2C-46%2018%2C-35%22%20fill%3D%22white%22%20stroke%3D%22%23000000%22%20stroke-width%3D%221.8%22%20stroke-linejoin%3D%22round%22%2F%3E%3Cpolygon%20points%3D%2218%2C-35%2034%2C-46%2034%2C24%2018%2C35%22%20fill%3D%22white%22%20stroke%3D%22%23000000%22%20stroke-width%3D%221.8%22%20stroke-linejoin%3D%22round%22%2F%3E%3Crect%20x%3D%22-18%22%20y%3D%22-35%22%20width%3D%2236%22%20height%3D%2270%22%20rx%3D%220%22%20fill%3D%22white%22%20stroke%3D%22%23000000%22%20stroke-width%3D%221.8%22%2F%3E%3Crect%20x%3D%22-14%22%20y%3D%22-30%22%20width%3D%2228%22%20height%3D%2212%22%20rx%3D%220%22%20fill%3D%22%23000000%22%20stroke%3D%22%23000000%22%20stroke-width%3D%220%22%2F%3E%3Ccircle%20cx%3D%229%22%20cy%3D%22-24%22%20r%3D%221.5%22%20fill%3D%22white%22%2F%3E%3Cpath%20d%3D%22M-10%20-24%20L-1%20-24%22%20fill%3D%22none%22%20stroke%3D%22white%22%20stroke-width%3D%221.2%22%20stroke-linecap%3D%22round%22%2F%3E%3Crect%20x%3D%22-14%22%20y%3D%22-13%22%20width%3D%2228%22%20height%3D%2238%22%20rx%3D%220%22%20fill%3D%22white%22%20stroke%3D%22%23000000%22%20stroke-width%3D%221.2%22%2F%3E%3Cpath%20d%3D%22M-10%20-9.0%20L10%20-9.0%22%20fill%3D%22none%22%20stroke%3D%22%23000000%22%20stroke-width%3D%221.1%22%20stroke-linecap%3D%22round%22%2F%3E%3Cpath%20d%3D%22M-10%20-4.8%20L10%20-4.8%22%20fill%3D%22none%22%20stroke%3D%22%23000000%22%20stroke-width%3D%221.1%22%20stroke-linecap%3D%22round%22%2F%3E%3Cpath%20d%3D%22M-10%20-0.5999999999999996%20L10%20-0.5999999999999996%22%20fill%3D%22none%22%20stroke%3D%22%23000000%22%20stroke-width%3D%221.1%22%20stroke-linecap%3D%22round%22%2F%3E%3Cpath%20d%3D%22M-10%203.6000000000000014%20L10%203.6000000000000014%22%20fill%3D%22none%22%20stroke%3D%22%23000000%22%20stroke-width%3D%221.1%22%20stroke-linecap%3D%22round%22%2F%3E%3Cpath%20d%3D%22M-10%207.800000000000001%20L10%207.800000000000001%22%20fill%3D%22none%22%20stroke%3D%22%23000000%22%20stroke-width%3D%221.1%22%20stroke-linecap%3D%22round%22%2F%3E%3Cpath%20d%3D%22M-10%2012.0%20L10%2012.0%22%20fill%3D%22none%22%20stroke%3D%22%23000000%22%20stroke-width%3D%221.1%22%20stroke-linecap%3D%22round%22%2F%3E%3Cpath%20d%3D%22M-10%2016.200000000000003%20L10%2016.200000000000003%22%20fill%3D%22none%22%20stroke%3D%22%23000000%22%20stroke-width%3D%221.1%22%20stroke-linecap%3D%22round%22%2F%3E%3Cpath%20d%3D%22M-10%2020.400000000000002%20L10%2020.400000000000002%22%20fill%3D%22none%22%20stroke%3D%22%23000000%22%20stroke-width%3D%221.1%22%20stroke-linecap%3D%22round%22%2F%3E%3Cpath%20d%3D%22M-11%2030%20L11%2030%22%20fill%3D%22none%22%20stroke%3D%22%23000000%22%20stroke-width%3D%221.5%22%20stroke-linecap%3D%22round%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E;" parent="1" vertex="1" tooltip="Corresponding component on both sides: server">
+          <mxGeometry x="830" y="79" width="45.6" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="workflow-32" value="1. Broadcast&#xa;memory/harness" style="rounded=1;arcSize=15;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;fontColor=#000000;fontFamily=Arial;fontSize=15;spacing=9;" parent="1" vertex="1" tooltip="Corresponding component on both sides: 1">
+          <mxGeometry x="596" y="173" width="198" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="workflow-33" value="3. Upload&#xa;reasoning traces" style="rounded=1;arcSize=15;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;fontColor=#000000;fontFamily=Arial;fontSize=15;spacing=9;" parent="1" vertex="1" tooltip="Corresponding component on both sides: 3">
+          <mxGeometry x="906" y="173" width="210" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="workflow-34" value="4. Aggregate traces&#xa;to update shared&#xa;memory/harness" style="rounded=1;arcSize=15;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;fontColor=#000000;fontFamily=Arial;fontSize=15;spacing=9;" parent="1" vertex="1" tooltip="Corresponding component on both sides: 4">
+          <mxGeometry x="925" y="70" width="193" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="workflow-35" value="Agent" style="rounded=1;arcSize=15;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;fontColor=#000000;fontFamily=Arial;fontSize=15;spacing=9;" parent="1" vertex="1" tooltip="Corresponding component on both sides: clients">
+          <mxGeometry x="644" y="280" width="92" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="workflow-36" value="Agent" style="rounded=1;arcSize=15;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;fontColor=#000000;fontFamily=Arial;fontSize=15;spacing=9;" parent="1" vertex="1" tooltip="Corresponding component on both sides: clients">
+          <mxGeometry x="804" y="280" width="92" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="workflow-37" value="Agent" style="rounded=1;arcSize=15;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;fontColor=#000000;fontFamily=Arial;fontSize=15;spacing=9;" parent="1" vertex="1" tooltip="Corresponding component on both sides: clients">
+          <mxGeometry x="964" y="280" width="92" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="workflow-38" value="2. Local reasoning and self-reflection" style="rounded=1;arcSize=15;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;fontColor=#000000;fontFamily=Arial;fontSize=15;spacing=9;" parent="1" vertex="1" tooltip="Corresponding component on both sides: 2">
+          <mxGeometry x="675" y="355" width="350" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="hxu6wiTyDnIWycwS2P2s-2" value="" style="edgeStyle=none;rounded=0;html=0;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;" edge="1" parent="1" target="hxu6wiTyDnIWycwS2P2s-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="318" as="sourcePoint" />
+            <mxPoint x="270" y="355" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="430" y="335" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hxu6wiTyDnIWycwS2P2s-1" value="2. Local optimization" style="rounded=1;arcSize=15;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;fontColor=#000000;fontFamily=Arial;fontSize=15;spacing=9;" vertex="1" tooltip="Corresponding component on both sides: 2" parent="1">
+          <mxGeometry x="215" y="318" width="110" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="hxu6wiTyDnIWycwS2P2s-3" value="2. Local optimization" style="rounded=1;arcSize=15;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;fontColor=#000000;fontFamily=Arial;fontSize=15;spacing=9;" vertex="1" tooltip="Corresponding component on both sides: 2" parent="1">
+          <mxGeometry x="376" y="307" width="110" height="48" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

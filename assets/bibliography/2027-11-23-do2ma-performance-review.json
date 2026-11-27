@@ -1,0 +1,169 @@
+{
+  "review_date": "2026-11-26",
+  "scope": "Focused primary-source review for the Performance table; not an exhaustive census or citation-count ranking. Selection prioritizes methodological fit and includes early work.",
+  "selection_counts": {
+    "aggregation": 4,
+    "data_distribution": 3,
+    "personalization": 3,
+    "distributed_optimization": 4
+  },
+  "selected": [
+    {
+      "citation_key": "yao2026federation",
+      "name": "FoT",
+      "table_role": "Aggregation; Data Distribution",
+      "source": "https://arxiv.org/abs/2604.16778",
+      "relevance": "Distills local reasoning insights into a shared library; studies transfer across task domains.",
+      "limits": "Keeping raw trajectories local is not a formal privacy guarantee."
+    },
+    {
+      "citation_key": "du2024debate",
+      "name": "Multiagent Debate",
+      "table_role": "Aggregation",
+      "source": "https://proceedings.mlr.press/v235/du24e.html",
+      "relevance": "Agents critique and revise candidate answers over communication rounds.",
+      "limits": "Consensus need not imply correctness; first preprint appeared in 2023."
+    },
+    {
+      "citation_key": "wang2024mixture",
+      "name": "Mixture-of-Agents",
+      "table_role": "Aggregation",
+      "source": "https://arxiv.org/abs/2406.04692",
+      "relevance": "Successive layers synthesize previous agents' responses.",
+      "limits": "Heterogeneous models do not by themselves establish robustness to non-IID task distributions."
+    },
+    {
+      "citation_key": "zhou2026mass",
+      "name": "MASS",
+      "table_role": "Aggregation",
+      "source": "https://arxiv.org/abs/2502.02533",
+      "relevance": "Optimizes prompts and workflow topology, including aggregation and debate blocks.",
+      "limits": "A system-design method rather than a standalone aggregation rule; first preprint 2025, ICLR 2026."
+    },
+    {
+      "citation_key": "mohtashami2023social",
+      "name": "Social Learning",
+      "table_role": "Data Distribution",
+      "source": "https://arxiv.org/abs/2312.11441",
+      "relevance": "Teachers transfer knowledge from private datasets using generated instructions or synthetic examples.",
+      "limits": "Evidence for distributed knowledge transfer, not a general solution or theoretical guarantee for non-IID tasks."
+    },
+    {
+      "citation_key": "liu2024asymmetry",
+      "name": "iAgents",
+      "table_role": "Data Distribution",
+      "source": "https://papers.nips.cc/paper/2024/hash/0534abc9e6db91683d82186ef0d68202-Abstract-Conference.html",
+      "relevance": "Coordinates agents that have access to different local user information.",
+      "limits": "Information asymmetry is related to, but distinct from, statistical heterogeneity in training."
+    },
+    {
+      "citation_key": "li2025experiential",
+      "name": "MAEL",
+      "table_role": "Personalization",
+      "source": "https://arxiv.org/abs/2505.23187",
+      "relevance": "Retrieves task-relevant experience from agent-specific pools.",
+      "limits": "Supports task/agent specialization; does not establish user-preference personalization."
+    },
+    {
+      "citation_key": "han2025legomem",
+      "name": "LEGOMem",
+      "table_role": "Personalization",
+      "source": "https://arxiv.org/abs/2510.04851",
+      "relevance": "Allocates procedural memories across orchestrators and task agents.",
+      "limits": "Role-aware memory allocation rather than a formal personalized optimization objective; cite original preprint."
+    },
+    {
+      "citation_key": "hu2026sharemem",
+      "name": "ShareMem",
+      "table_role": "Personalization",
+      "source": "https://arxiv.org/abs/2609.32511",
+      "relevance": "Shares reusable experience while consulting the receiving user's own preferences.",
+      "limits": "Recent preprint marked work in progress; selected for direct fit, not citation count."
+    },
+    {
+      "citation_key": "mcmahan2017communication",
+      "name": "FedAvg",
+      "table_role": "Distributed optimization: Aggregation",
+      "source": "https://proceedings.mlr.press/v54/mcmahan17a.html",
+      "relevance": "Alternates local model updates and central aggregation.",
+      "limits": "Text synthesis is an analogy to parameter aggregation, not arithmetic averaging of strings."
+    },
+    {
+      "citation_key": "lin2020ensemble",
+      "name": "FedDF",
+      "table_role": "Distributed optimization: Aggregation",
+      "source": "https://proceedings.neurips.cc/paper/2020/hash/18df51b97ccd68128e994804f3eccc87-Abstract.html",
+      "relevance": "Distills client ensemble predictions into a server model using unlabeled inputs.",
+      "limits": "A proposed inspiration for text-output synthesis; the original method trains model parameters."
+    },
+    {
+      "citation_key": "ghosh2020clustered",
+      "name": "IFCA",
+      "table_role": "Distributed optimization: Data Distribution",
+      "source": "https://proceedings.neurips.cc/paper/2020/hash/e32cc80bf07915058ce90722ee17bb71-Abstract.html",
+      "relevance": "Alternates client clustering and optimization of cluster-specific models.",
+      "limits": "Task-compatibility grouping for agents is proposed here; the original convergence assumptions do not automatically hold."
+    },
+    {
+      "citation_key": "li2021ditto",
+      "name": "Ditto",
+      "table_role": "Distributed optimization: Personalization",
+      "source": "https://proceedings.mlr.press/v139/li21h.html",
+      "relevance": "Maintains global and personalized models with local regularization toward the global model.",
+      "limits": "Separating shared and local agent memory is a design analogy; no inherited convergence or robustness theorem is claimed."
+    }
+  ],
+  "other_papers_screened": [
+    {
+      "name": "AutoGen",
+      "source": "https://arxiv.org/abs/2308.08155",
+      "selection_note": "General conversation framework; less direct than selected papers for these three mechanisms."
+    },
+    {
+      "name": "MetaGPT",
+      "source": "https://arxiv.org/abs/2308.00352",
+      "selection_note": "Role-based workflow; role assignment alone is not personalized adaptation."
+    },
+    {
+      "name": "CAMEL",
+      "source": "https://arxiv.org/abs/2303.17760",
+      "selection_note": "Early role-playing collaboration; useful background, less direct challenge-specific evidence."
+    },
+    {
+      "name": "Encouraging Divergent Thinking through Multi-Agent Debate",
+      "source": "https://arxiv.org/abs/2305.19118",
+      "selection_note": "Close aggregation alternative; selected Du et al. to avoid multiple similar debate citations."
+    },
+    {
+      "name": "AFlow",
+      "source": "https://arxiv.org/abs/2410.10762",
+      "selection_note": "Workflow search; MASS retained to cover the user's explicit suggestion."
+    },
+    {
+      "name": "Intrinsic Memory Agents",
+      "source": "https://arxiv.org/abs/2508.08997",
+      "selection_note": "Close alternative for role-aligned agent memory; selected papers cover task, role, and user specificity."
+    },
+    {
+      "name": "Collaborative Multi-Agent Optimization for Personalized Memory System",
+      "source": "https://arxiv.org/abs/2603.12631",
+      "selection_note": "Memory-maintenance-agent optimization; less direct than ShareMem for shared versus user-specific knowledge."
+    },
+    {
+      "name": "FedAgent",
+      "source": "https://fed-agent.github.io/",
+      "selection_note": "Examines heterogeneous agent reinforcement learning with parameter updates; outside the table's primary text-space focus."
+    },
+    {
+      "name": "Federated Multi-Task Learning (MOCHA)",
+      "source": "https://proceedings.neurips.cc/paper/2017/hash/6211080fa89981f66b1a0c9d55c61d0f-Abstract.html",
+      "selection_note": "Earlier personalized/related-task optimization alternative; Ditto offers a simpler explicit global/local analogy."
+    },
+    {
+      "name": "Context Language Models",
+      "source": "https://arxiv.org/abs/2609.37725",
+      "selection_note": "User clarified CLM refers to this paper, but prefers an unidentified alternative by Yang Wang; awaiting title/link."
+    }
+  ],
+  "proposed_connections": "FedAvg/FedDF to synthesis, IFCA to selective sharing, and Ditto to shared/local memory are author-proposed design connections, not claims that these agent systems implement the original algorithms or inherit their guarantees."
+}
